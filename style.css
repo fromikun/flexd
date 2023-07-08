@@ -1,0 +1,99 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  background-color: rgb(226, 226, 226);
+}
+
+body div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.color {
+  background-color: white;
+}
+/* --- */
+.flex1 {
+  flex: 1;
+}
+.flex3 {
+  flex: 3;
+}
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* --- */
+.zuoQu {
+  height: 100vh;
+}
+.zuoTop {
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+.zuoBottom {
+  width: 100%;
+}
+.minis {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(44, 179, 44);
+}
+/* --- */
+.youQu {
+  height: 100vh;
+  margin-left: 10px;
+}
+.youBox1 {
+  height: 10vh;
+  min-width: 100%;
+  z-index: 1;
+}
+.mini0 {
+  width: 100%;
+  height: 10vh;
+}
+.youBox2 {
+  width: 100%;
+  overflow: auto;
+}
+.youTop {
+  flex: 4;
+  flex-direction: column;
+}
+.mini1 {
+  width: 100%;
+}
+.minis1 {
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+}
+.youBottom {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.minis2 {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+.mini2 {
+  flex: 1;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.minis3 {
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
